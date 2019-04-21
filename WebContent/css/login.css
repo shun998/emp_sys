@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0px;
+	font-size: 12px;
+	background-image: url('../image/bg_login.png');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-color: #A2D5F0;
+}
+
+td,div {
+	font-size: 12px;
+}
+
+.changeColor_1 {
+	border-color:red;
+}
+
+.changeColor_2 {
+	border-color:white;
+}
+
+#login {
+	color: white;
+	background-image: url('../image/bg_login.png');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-color: #A2D5F0;
+}
+
+#login #root {
+	background-image: url('../image/login_root.png');
+}
+
+#login #main {
+	background-image: url('../image/login_main.png');
+}
+
+#login * td {
+	color: white;
+}
+
+#login a {
+	color: white;
+	text-decoration: none;
+}
+
+#login .textbox {
+	width: 180px
+}
